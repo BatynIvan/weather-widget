@@ -1,0 +1,49 @@
+.weather {
+    background-color: aquamarine;
+    border-radius: 10px;
+    padding: 20px;
+    max-width: 450px;
+    margin: 0 auto;
+}
+
+.weather-temp {
+    font-size: 30px;
+    font-weight: 700;
+    margin-bottom: 10px;
+}
+
+.weather-temp::after,
+.weather-feels-like::after{
+    display: inline-block;
+    margin-left: 5px;
+    content: "℃";
+}
+
+.weather-status {
+    font-size: 20px;
+    margin-bottom: 20px;
+}
+
+.weather-city {
+    font-size: 40px;
+    font-weight: 700;
+    margin-bottom: 15px;
+}
+
+.weather-loading {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.weather-loading img {
+    max-width: 50px;
+}
+
+.weather-header {
+    display: flex;
+}
+
+.weather-main {
+    flex: 1 1 auto;
+}
